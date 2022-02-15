@@ -1,10 +1,10 @@
-console.log(1);
-const reverseSeq = n => {
-    let res = [];
-    for(let i = n; i > 0; i--) {
-      res.push[i];
-    }
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let x = dadYearsOld;
+    let y = sonYearsOld;
+    let res = 2 * y - x;
+    res = Math.abs(res);
     return res;
-  };
+  }
 
-  reverseSeq(5);
+  console.log (twiceAsOld(29,0));
+
