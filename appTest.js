@@ -1,10 +1,9 @@
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-    let x = dadYearsOld;
-    let y = sonYearsOld;
-    let res = 2 * y - x;
-    res = Math.abs(res);
-    return res;
-  }
+function remove (string) {
+  let res = string.split('!');
+  console.log(res);
+  res = res.join('');
+  console.log(res);
+}
 
-  console.log (twiceAsOld(29,0));
+remove("!!!!Hi!!!!")
 
